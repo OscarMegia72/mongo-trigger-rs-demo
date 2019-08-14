@@ -1,0 +1,87 @@
+@import "./variables";
+@import "./tipos";
+@import "./filtro_noticias.less";
+@import "./noticias";
+@import "./media_querys.less";
+html,body{
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    // overflow: hidden;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+
+    .banner {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 1.5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+ .logo{
+    background-color: @color-corporativo;
+    color:white;
+    padding: 0.8em;
+    border-radius: 50%;
+    font-family: 'corporativa';
+    font-size: 1.5em;
+}
+.logo-main{
+    margin-bottom: 20px;
+}
+.id-user{
+    //padding-left: 1.5%;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: #c8c8c8;
+    font-size: 0.5em;
+}
+.logo-texto{
+    padding-left: 20px;
+    font-family: 'titulares';
+    font-size: 2.5em;
+    font-weight: bold;
+    color:@color-corporativo;
+}
+.banner .cabecera-descripcion{
+    padding-left: 20px;
+    font-family: 'titulares';
+    font-size: 1.0em;
+    font-weight: bold;
+    color:@color-corporativo;
+}
+.seccion-ideas{
+    padding-left: 5%;
+    padding-right: 5%;
+    //display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    
+}
+.aemet-main {
+    padding: 10px;
+    font-family: 'titulares';
+    font-size: @font-size-aemet;
+    font-weight: bold;
+    color: #3e56b7;
+}
+.logo-main{
+    //background-color: rosybrown;
+}
+
+// <span class='aemet-ciudad'>Madrid</span>
+// <span class='aemet-temperatura'>18º/10º</span>
+// <span class='aemet-estado'>Nuboso</span>
+
