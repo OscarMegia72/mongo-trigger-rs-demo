@@ -10,7 +10,7 @@
  */
 const dotenv = require('dotenv') 
 dotenv.config()
-global.config = require('../../config')
+
 //=========
 const createError = require('http-errors');
 const express = require('express');
