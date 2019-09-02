@@ -4,7 +4,7 @@ dotenv.config()
 var app = require('./app');
 var debug = require('debug')('myapp:server');
 var http = require('http');
-const port = normalizePort(process.env.PORT || '4001');
+const port = normalizePort(process.env.PORT || '4000');
 const path = require('path')
 const config = require('../../config')
 
