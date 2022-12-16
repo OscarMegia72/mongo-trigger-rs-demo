@@ -39,7 +39,7 @@
     "dotenv": "^8.0.0",
     "dustjs-helpers": "^1.7.4",
     "encoding": "^0.1.12",
-    "express": "~4.16.0",
+    "express": "~4.17.3",
     "express-vue": "^5.13.1",
     "http-errors": "~1.6.2",
     "i18n": "^0.8.3",
